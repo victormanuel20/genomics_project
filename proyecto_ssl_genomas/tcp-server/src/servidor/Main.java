@@ -38,6 +38,8 @@ public class Main {
         System.setProperty("javax.net.ssl.trustStoreType", "PKCS12");
         TCPServer server = new TCPServer(2020);
         server.start();
+
+        System.out.println("prueba");
     }
 }
 
